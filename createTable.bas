@@ -15,10 +15,10 @@ Sub CreateTable()
              yRange.End = .Cell(2, 8).Range.End
              yRange.Cells.Merge
         
-        SelfGenTable.Cell(Row:=1, Column:=1).Range.InsertAfter "场次"
-        SelfGenTable.Cell(Row:=1, Column:=3).Range.InsertAfter "时间"
-        SelfGenTable.Cell(Row:=1, Column:=5).Range.InsertAfter "场景"
-        SelfGenTable.Cell(Row:=2, Column:=1).Range.InsertAfter "人物"
+        SelfGenTable.Cell(Row:=1, Column:=1).Range.InsertAfter "鍦烘"
+        SelfGenTable.Cell(Row:=1, Column:=3).Range.InsertAfter "鏃堕棿"
+        SelfGenTable.Cell(Row:=1, Column:=5).Range.InsertAfter "鍦扮偣"
+        SelfGenTable.Cell(Row:=2, Column:=1).Range.InsertAfter "浜虹墿"
         
         Set zRange = .Cell(1, 2).Range
             zRange.End = zRange.End - 1
